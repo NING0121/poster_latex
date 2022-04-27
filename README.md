@@ -1,4 +1,7 @@
-# Gemini [![Build Status](https://github.com/anishathalye/gemini/workflows/CI/badge.svg)](https://github.com/anishathalye/gemini/actions?query=workflow%3ACI)
+# poster_latex
+## Paper
+The content of this poster comes from the paper:[Generative Adversarial Active Learning for Unsupervised Outlier Detection]
+## Gemini [![Build Status](https://github.com/anishathalye/gemini/workflows/CI/badge.svg)](https://github.com/anishathalye/gemini/actions?query=workflow%3ACI)
 
 Gemini is a modern LaTeX [beamerposter] theme.
 
@@ -31,45 +34,6 @@ If you're looking for a beamer presentation theme, take a look at [Auriga].
 
 1. Run `make` to build your poster
 
-## FAQ
-
-See the [FAQ] in the Wiki for answers to frequently asked questions such as how
-to add an institution logo to the poster.
-
-## Themes
-
-Gemini currently includes three color themes:
-
-* `gemini` (default)
-* `mit`
-* `labsix`
-
-The alternative themes are intended to be inspiration for you to make your own
-color theme. You're highly recommended to make your own color theme (it's
-really easy!) or use the default Gemini theme.
-
-### MIT theme
-
-<p align="center">
-<a href="https://raw.githubusercontent.com/anishathalye/assets/master/gemini/poster-mit.pdf">
-<img src="https://raw.githubusercontent.com/anishathalye/assets/master/gemini/poster-mit-small.png">
-</a>
-</p>
-
-### LabSix theme
-
-<p align="center">
-<a href="https://raw.githubusercontent.com/anishathalye/assets/master/gemini/poster-labsix.pdf">
-<img src="https://raw.githubusercontent.com/anishathalye/assets/master/gemini/poster-labsix-small.png">
-</a>
-</p>
-
-## Design goals
-
-* **Minimal**: clean and easy to read, so that the emphasis is on the content
-* **Batteries included**: works and looks good out of the box
-* **Easy theming**: easy to create and use a new color theme
-
 ## Contributing
 
 Contributions to Gemini such as bug reports, new themes, and new poster
@@ -89,5 +53,5 @@ Copyright (c) 2018-2022 Anish Athalye. Released under the MIT License. See
 [Raleway]: https://www.fontsquirrel.com/fonts/raleway
 [Lato]: https://www.fontsquirrel.com/fonts/lato
 [license]: LICENSE.md
-[FAQ]: https://github.com/anishathalye/gemini/wiki/FAQ
-# poster_latex
+[Generative Adversarial Active Learning for Unsupervised Outlier Detection]: https://ieeexplore.ieee.org/abstract/document/8668550
+
