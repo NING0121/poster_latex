@@ -1,5 +1,5 @@
 # poster_latex
-蒲浩洋 201814151147
+蒲浩洋 201814151147  
 王楠楠 201814151080
 ## Paper
 The content of this poster comes from the paper: [Generative Adversarial Active Learning for Unsupervised Outlier Detection]
