@@ -48,9 +48,9 @@
 % ====================
 
 \footercontent{
-  \href{https://www.example.com}{https://www.example.com} \hfill
-  ABC Conference 2025, New York --- XYZ-1234 \hfill
-  \href{mailto:alyssa.p.hacker@example.com}{alyssa.p.hacker@example.com}}
+  \href{https://}{https://www.example.com} \hfill
+  Methods and Applications for Anomaly Detection 2022, SiChuan --- 147 and 080 \hfill
+  \href{}{alyssa.p.hacker@example.com}}
 % (can be left out to remove footer)
 
 % ====================
@@ -75,15 +75,7 @@
 
   \begin{block}{INTRODUCTION}
 
-    \begin{figure}
-      \centering
-      \begin{tikzpicture}[scale=6]
-        \draw[step=0.25cm,color=gray] (-1,-1) grid (1,1);
-        \draw (1,0) -- (0.2,0.2) -- (0,1) -- (-0.2,0.2) -- (-1,0)
-          -- (-0.2,-0.2) -- (0,-1) -- (0.2,-0.2) -- cycle;
-      \end{tikzpicture}
-      \caption{A figure caption.}
-    \end{figure}
+    \textbf{OUTLIERS} refer to the observations that have significantly different characteristics from the other data. Due to the critical and interesting insights they often provide, outlier detection technologies play important roles in various application domains. Such as the abnormal trajectory and moving object detection, fraud detection, emerging topic detection and medical information detection.
 
   \end{block}
 
@@ -119,16 +111,22 @@
 	
 	\begin{figure}
 		\centering
-		\includegraphics{figures/figure 1.png}
-		\caption{Illustration of the AGPO-based outlier detection mechanism. Normal examples are shown with blue dots, outliers with red “x”, and generated potential outliers with gray dots. }
+		\includegraphics[scale=1]{figures/figure 1.png}
+		\caption{Illustration of the AGPO-based outlier detection mechanism.}
+		%Normal examples are shown with blue dots, outliers with red “x”, and generated potential outliers with gray dots.
 	\end{figure}
 
 	\begin{equation}\nonumber
 		\begin{aligned}
-			C(x|\rho(x)\geq\tau)\rightarrow1,\\
-			C(x|\rho(x)\leq\tau)\rightarrow0,
+			\zeta(x|\rho(x)\geq\tau)\rightarrow1,\\
+			\zeta(x|\rho(x)\leq\tau)\rightarrow0,
 		\end{aligned}
 	\end{equation}
+    \begin{figure}
+	    \centering
+	    \includegraphics[scale=1.5]{figures/figure 2.png}
+	    \caption{Illustration of the detection performance of the classifier $C(x)$ in three cross-sectional data drilled from high-dimensional datasets. The correct boundaries are shown with blue lines and incorrect boundaries with red lines. }
+    \end{figure}
 	$$
 	L_C= -\frac{1}{2n}\sum_{i=1}^{2n}(y_i\log(C(x_i))+(1-y_i)\log(1-C(x_i)))
 	$$

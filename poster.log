@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.4.26)  26 APR 2022 15:51
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.4.26)  27 APR 2022 17:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1339,9 +1339,12 @@ Package pgfplots notification 'compat/show suggested version=true': you might b
 enefit from \pgfplotsset{compat=1.18} (current compat level: 1.14).
 
 (./poster.nav)
+
+Package hyperref Warning: Suppressing link with empty target on input line 68.
+
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 6
 8.
- (g:/Tex/texlive/2022/texmf-dist/tex/latex/lm/ot1lmr.fd
+(g:/Tex/texlive/2022/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 6
@@ -1369,13 +1372,15 @@ LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <17.915> not available
 (Font)              size <17.28> substituted on input line 68.
 
 
-Underfull \hbox (badness 1521) in paragraph at lines 267--267
+Underfull \hbox (badness 1521) in paragraph at lines 265--265
 []\TU/Lato(1)/b/n/24.88 GAN-Based Outlier Detection Methods: \TU/Lato(1)/m/n/24
 .88 convolutional generative adversarial network
  []
 
 File: figures/figure 1.png Graphic file (type bmp)
 <figures/figure 1.png>
+File: figures/figure 2.png Graphic file (type bmp)
+<figures/figure 2.png>
 File: figures/SO-GAAL.png Graphic file (type bmp)
 <figures/SO-GAAL.png>
 File: figures/process of SO-GAAL.png Graphic file (type bmp)
@@ -1389,8 +1394,12 @@ File: figures/Result.png Graphic file (type bmp)
 File: figures/Result 2.png Graphic file (type bmp)
 <figures/Result 2.png>
 
-Overfull \vbox (6.8375pt too high) detected at line 267
+Overfull \vbox (10.37817pt too high) detected at line 265
  []
+
+
+Package hyperref Warning: Suppressing link with empty target on input line 265.
+
 
 [1
 
@@ -1413,12 +1422,12 @@ Package rerunfilecheck Info: File `poster.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 38706 strings out of 476179
- 953879 string characters out of 5811308
- 1494238 words of memory out of 5000000
- 58655 multiletter control sequences out of 15000+600000
- 510325 words of font info for 125 fonts, out of 8000000 for 9000
+ 38686 strings out of 476179
+ 953207 string characters out of 5811308
+ 1497238 words of memory out of 5000000
+ 58634 multiletter control sequences out of 15000+600000
+ 514566 words of font info for 131 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 128i,20n,122p,723b,1134s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 128i,20n,122p,723b,1085s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on poster.pdf (1 page).
