@@ -1,6 +1,6 @@
 # poster_latex
 ## Paper
-The content of this poster comes from the paper:[Generative Adversarial Active Learning for Unsupervised Outlier Detection]
+The content of this poster comes from the paper: [Generative Adversarial Active Learning for Unsupervised Outlier Detection]
 ## Gemini [![Build Status](https://github.com/anishathalye/gemini/workflows/CI/badge.svg)](https://github.com/anishathalye/gemini/actions?query=workflow%3ACI)
 
 Gemini is a modern LaTeX [beamerposter] theme.
